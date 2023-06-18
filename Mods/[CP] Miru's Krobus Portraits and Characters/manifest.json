@@ -1,0 +1,37 @@
+{
+	"Name": "Miru's Krobus Portraits and Characters",
+	"Author": "Miru",
+	"Version": "1.0.0",
+	"Description": "Two types of portraits and characters for Krobus.",
+	"UniqueID": "Miru.KrobusPortraitsandCharacters",
+	"UpdateKeys": [ "Nexus:16353" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Poltergeister.CuteSprites",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Poltergeister.SeasonalCuteCharacters",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Nyapu.Portraits",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "siamece.VanillaFacelift",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "woomewoongs.portraits",
+			"IsRequired": false
+		},
+	]
+}

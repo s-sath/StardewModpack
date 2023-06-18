@@ -1,0 +1,80 @@
+{
+	"Format": "1.28.0",
+	
+	"ConfigSchema":{
+		
+		"Portraits": {
+			"AllowValues": "Default, Alternate, False",
+			"Default": "Default"
+        },
+		
+		"Characters": {
+			"AllowValues": "True, False",
+			"Default": "True"
+        },
+
+	},
+	
+	"Changes": [
+	
+		//Portraits
+		{  
+			"Action": "EditImage",
+			"Target": "Portraits/Krobus",
+			"FromFile": "assets/Portraits/{{Portraits}}.png",
+			"When": {
+				"Portraits": "Default, Alternate",
+			}
+		},
+		
+		{  
+			"Action": "EditImage",
+			"Target": "Portraits/Krobus_Trenchcoat",
+			"FromFile": "assets/Portraits/{{Portraits}}_Trenchcoat.png",
+			"When": {
+				"Portraits": "Default, Alternate",
+			}
+		},
+		
+		//Characters
+		{  
+			"Action": "EditImage",
+			"Target": "Characters/Krobus",
+			"FromFile": "assets/Characters/Krobus.png",
+			"When": {
+				"Characters": "True",
+			}
+		},
+		
+		{  
+			"Action": "EditImage",
+			"Target": "Characters/Krobus_Trenchcoat",
+			"FromFile": "assets/Characters/Krobus_Trenchcoat.png",
+			"When": {
+				"Characters": "True",
+			}
+		},
+		
+		{  
+			"Action": "EditImage",
+			"Target": "Characters/KrobusRaven",
+			"FromFile": "assets/Characters/KrobusRaven.png",
+			"FromArea": {"X": 0, "Y": 0, "Width": 160, "Height": 32},
+			"ToArea": {"X": 0, "Y": 0, "Width": 160, "Height": 32},
+			"When": {
+				"Characters": "True",
+			}
+		},
+		
+		{  
+			"Action": "EditImage",
+			"Target": "Characters/SeaMonsterKrobus",
+			"FromFile": "assets/Characters/SeaMonsterKrobus.png",
+			"When": {
+				"Characters": "True",
+			}
+		},
+	
+	]
+	
+}
